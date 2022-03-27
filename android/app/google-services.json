@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "268797797714",
+    "project_id": "buncaythai-demo",
+    "storage_bucket": "buncaythai-demo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:268797797714:android:505086c2d5223cc554068b",
+        "android_client_info": {
+          "package_name": "sunshine.buncaythai.demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "268797797714-io8ut43diem582sir3a6pi4flh7ord6q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUdxbCxUsCjbub6rFvTjOHFhwu_ahJiRg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "268797797714-io8ut43diem582sir3a6pi4flh7ord6q.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "268797797714-1v5h12nf1ug4ejns4i4nhmkan9ujqicb.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "sunshine.buncaythai.demo"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

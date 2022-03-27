@@ -1,0 +1,56 @@
+{
+  "common": {
+    "info": "Thông báo"
+  },
+  "DropDownPicker": {
+    "PLACEHOLDER": "Chọn giá trị",
+    "SEARCH_PLACEHOLDER": "Nhập nội dung cần tìm ...",
+    "SELECTED_ITEMS_COUNT_TEXT": "{count} mục đã được chọn",
+    "NOTHING_TO_SHOW": "Danh sách hiển thị rỗng!"
+  },
+  "auth": {
+    "text_sign_in": "ĐĂNG NHẬP",
+    "text_reset_password": "ĐẶT LẠI MẬT KHẨU",
+    "description_reset_password": "Chúng tôi sẽ gửi mật khẩu tạm thời qua email cho bạn. Hãy sử dụng mật khẩu được cung cấp để đăng nhập và đặt lại mật khẩu.",
+    "text_sign_up": "ĐĂNG KÝ",
+    "btn_sign_in": "Đăng nhập",
+    "btn_sign_up": "Đăng ký",
+    "btn_send": "Gửi",
+    "text_description_bottom_1": "Tôi đã đọc và đồng ý với các ",
+    "text_description_bottom_2": "Điều khoản dịch vụ, chính sách bảo mật",
+    "text_description_bottom_and": " và ",
+    "text_description_bottom_3": " Quy định.",
+    "text_delivery_address": "ĐỊA CHỈ GIAO HÀNG",
+    "field_full_name": "Họ và tên",
+    "field_number_phone": "Số điện thoại",
+    "field_email": "Địa chỉ mail",
+    "field_sing_up_password": "Mật khẩu đăng nhập",
+    "field_password": "Mật khẩu",
+    "field_email_reset": "Nhập email đã đăng ký",
+    "forgot_password": "Quên mật khẩu?",
+    "contact_phone": "Liên hệ tổng đài 1900.0327",
+    "contact_support": "Hỗ trợ gọi 1900.0327",
+    "line_or": "hoặc",
+    "number_phone.required": "Vui lòng nhập số điện thoại.",
+    "email.required": "Vui lòng nhập email.",
+    "email.wrong_format": "Email Không đúng định dạng.",
+    "number_phone.wrong_format": "Số điện thoại Không đúng định dạng.",
+    "password.required": "Vui lòng nhập mật khẩu.",
+    "number_phone_or_password.wrong": "Số điện thoại hoặc mật khẩu không đúng."
+  },
+  "product": {
+    "delivery_to": "Delivery to",
+    "product_in_cart": "Có {amount} sản phẩm trong giỏ hàng",
+    "ingredient": "Thành phần",
+    "specialNote": "Ghi chú đặc biệt (Không bắt buộc)",
+    "exampleNote": "Ví dụ: đóng gói cẩn thận, gọi điện trước khi giao",
+    "addToCart": "Thêm vào giỏ hàng",
+    "nearestBranch": "Chọn chi nhánh gần nhất",
+    "addressDefault": "Địa chỉ mặc định",
+    "discount": "Giảm giá",
+    "takeOrder": "Đặt đơn",
+    "addMenu": "Thêm món",
+    "delivery_distance": "Khoảng cách giao hàng",
+    "product_combo": "Sản phẩm mua kèm"
+  }
+}

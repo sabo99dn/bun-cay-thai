@@ -1,0 +1,103 @@
+import {StyleSheet, Dimensions} from 'react-native';
+import EStyleSheet from 'react-native-extended-stylesheet';
+const WIDTH = Dimensions.get('window').width;
+const AVATAR_WIDTH = WIDTH / 2.5;
+export default EStyleSheet.create({
+  itemContainer: {
+    width: '100%',
+    minHeight: WIDTH / 2,
+    borderRadius: 8,
+    marginTop: 20,
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 1,
+    },
+    shadowOpacity: 0.22,
+    shadowRadius: 2.22,
+    elevation: 3,
+    borderTopLeftRadius: 8,
+    borderTopRightRadius: 8,
+  },
+  messageContainer: {
+    width: '100%',
+    padding: 15,
+    backgroundColor: '$white',
+    borderTopLeftRadius: 8,
+    borderTopRightRadius: 8,
+    borderWidth: 0,
+  },
+  buttonContainer: {
+    width: '100%',
+    height: 42,
+    flexDirection: 'row',
+    backgroundColor: '#fafafa',
+    paddingHorizontal: 16,
+    paddingVertical: 8,
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginTop: -1,
+  },
+  replyContainer: {
+    width: '100%',
+    paddingHorizontal: 8,
+    paddingVertical: 8,
+    backgroundColor: '$white',
+    borderBottomLeftRadius: 8,
+    borderBottomRightRadius: 8,
+  },
+  replyWrapper: {
+    backgroundColor: '$replyBackgroundRed',
+    paddingHorizontal: 21,
+    paddingVertical: 8,
+    borderRadius: '$largeText',
+    width: '100%',
+  },
+  replyWrapperActive: {
+    backgroundColor: '$activeCardBackground',
+    paddingHorizontal: 21,
+    paddingVertical: 8,
+    borderRadius: '$largeText',
+    width: '100%',
+  },
+  replyText: {
+    color: '$replyTextRed',
+    fontWeight: '$fontWeightMedium',
+    fontSize: '$normalText',
+    lineHeight: '$mediumLineHeight',
+    fontStyle: 'italic',
+  },
+  replyTextActive: {
+    color: '$txtFocusInput',
+    fontWeight: '$fontWeightMedium',
+    fontSize: '$normalText',
+    lineHeight: '$mediumLineHeight',
+    fontStyle: 'italic',
+  },
+  groupButton: {
+    flexDirection: 'row',
+    width: 70,
+    justifyContent: 'space-between',
+  },
+  dateText: {
+    fontWeight: '$fontWeightMedium',
+    fontSize: '$normalText',
+    lineHeight: '$mediumLineHeight',
+    fontStyle: 'italic',
+    color: '$btnColorBlack',
+  },
+  reportImg: {
+    width: '100%',
+    height: (WIDTH - 20) / 2,
+    resizeMode: 'contain',
+    borderTopLeftRadius: 8,
+    borderTopRightRadius: 8,
+    backgroundColor: '$white',
+  },
+  messageText: {
+    color: '$btnColorBlack',
+    fontWeight: '$fontWeightMedium',
+    fontSize: '$normalText',
+    lineHeight: '$mediumLineHeight',
+  },
+});

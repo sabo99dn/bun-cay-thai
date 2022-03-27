@@ -1,0 +1,16 @@
+{
+    "79": {
+        "name": "Hồ Chí Minh",
+        "slug": "ho-chi-minh",
+        "type": "thanh-pho",
+        "name_with_type": "Thành phố Hồ Chí Minh",
+        "code": "79"
+    },
+    "48": {
+        "name": "Đà Nẵng",
+        "slug": "da-nang",
+        "type": "thanh-pho",
+        "name_with_type": "Thành phố Đà Nẵng",
+        "code": "48"
+    }
+}

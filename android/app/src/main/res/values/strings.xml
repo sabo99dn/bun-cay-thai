@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BunCayThaiApp</string>
+    <string moduleConfig="true" name="CodePushDeploymentKey">R29U4Q-_Mqf-K9lKc1JM01Nmaz6y_mwxzserm</string>
+</resources>
